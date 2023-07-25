@@ -1,0 +1,71 @@
+name: deafcantalk
+description: DeafCanTalk is an app that allows hard-of-hearing persons to communicate with hearing people seamlessly
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0-356.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  flutter_secure_storage: ^5.0.2
+  image_picker: ^0.8.5
+  json_annotation: ^4.4.0
+  http: ^0.13.0
+  logger:
+  permission_handler: ^10.2.0
+  uuid:
+  google_fonts:
+  lottie:
+  animate_do:
+  flutter_image_compress:
+  flutter_tts:
+  web_socket_channel:
+  mic_stream:
+  cached_network_image: ^3.2.1
+  flutter_hooks: ^0.18.5+1
+  flutter_riverpod: ^1.0.4
+  go_router: ^6.5.5
+  flutter_svg:
+  intl:
+  dio:
+  webview_flutter:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.jpeg"
+  min_sdk_android: 21
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/images/logo.jpeg
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
